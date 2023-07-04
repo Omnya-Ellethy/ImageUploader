@@ -30,8 +30,6 @@ app.MapGet("/", async (HttpContext context) =>
                     padding: 20px;
                     background-color: #f4f4f4;
                     align-items: center;               
-
-                    
                 }
                 h1 {
                     color: #333;
@@ -95,7 +93,6 @@ app.MapGet("/", async (HttpContext context) =>
                     border-radius: 15px;
                     box-shadow: 0 9px #C0C0C0;
                     margin-top: 20px;
-
                 }
                 input[type=""submit""]:hover {
                     background-color: #45a049;
@@ -242,9 +239,9 @@ app.MapGet("/picture/{id}", async (HttpContext context) =>
         var imageData = allImageData.FirstOrDefault(img => img["Id"] == id);
         if (imageData != null)
         {
-            byte[] imageBytes = await File.ReadAllBytesAsync(imageData["ImagePath"]);
-            string imageBase64Data = Convert.ToBase64String(imageBytes);
-
+            var imagePath = imageData["ImagePath"];
+            var imageUrl = $"/Images/{Path.GetFileName(imagePath)}";
+            
             // Create HTML response
             var html = $@"<!DOCTYPE html>
             <html>
@@ -266,17 +263,14 @@ app.MapGet("/picture/{id}", async (HttpContext context) =>
                         text-align: center;
                         margin-top: 20px;
                     }}
-
                     .container img {{
                         width: 60vw; /* Set the desired width */
                         height: auto; /* Automatically adjust height */
                     }}
-
                     .card {{
                         text-align: center;
                         margin-top: 20px;
                     }}
-
                     .card button {{
                         padding: 10px 20px;
                         font-size: 16px;
@@ -288,14 +282,13 @@ app.MapGet("/picture/{id}", async (HttpContext context) =>
                         border-radius: 15px;
                         box-shadow: 0 9px #C0C0C0;
                         margin-bottom: 30px;
-
                     }}
                 </style>
                
                 </head>
                 <body>
                     <div class=""container"">
-                        <img src=""data:image/png;base64,{imageBase64Data}"" alt=""{imageData["Title"]}"">
+                        <img src=""{imageUrl}"" alt=""{imageData["Title"]}"">
                     </div>
 
                     <div class=""card"">
