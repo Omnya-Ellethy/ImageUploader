@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "Hash": "dOLGLJnS0tPjDF2sdK8mSTbxFH1yD81u+Bz9A/MrOII=",
+  "Source": "ImageUploader",
+  "BasePath": "_content/ImageUploader",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ImageUploader\\wwwroot",
+      "Source": "ImageUploader",
+      "ContentRoot": "C:\\D\\SliverKey\\2- Image Uploader\\ImageUploader\\wwwroot\\",
+      "BasePath": "_content/ImageUploader",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\D\\SliverKey\\2- Image Uploader\\ImageUploader\\wwwroot\\Images\\72e04f8c-665b-4c5d-9e78-0c7d037a9f27.jpg",
+      "SourceId": "ImageUploader",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\D\\SliverKey\\2- Image Uploader\\ImageUploader\\wwwroot\\",
+      "BasePath": "_content/ImageUploader",
+      "RelativePath": "Images/72e04f8c-665b-4c5d-9e78-0c7d037a9f27.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\72e04f8c-665b-4c5d-9e78-0c7d037a9f27.jpg"
+    },
+    {
+      "Identity": "C:\\D\\SliverKey\\2- Image Uploader\\ImageUploader\\wwwroot\\Images\\9a0142fb-1c37-426f-aa00-48eb6e537379.jpg",
+      "SourceId": "ImageUploader",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\D\\SliverKey\\2- Image Uploader\\ImageUploader\\wwwroot\\",
+      "BasePath": "_content/ImageUploader",
+      "RelativePath": "Images/9a0142fb-1c37-426f-aa00-48eb6e537379.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\9a0142fb-1c37-426f-aa00-48eb6e537379.jpg"
+    },
+    {
+      "Identity": "C:\\D\\SliverKey\\2- Image Uploader\\ImageUploader\\wwwroot\\Images\\all_images.json",
+      "SourceId": "ImageUploader",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\D\\SliverKey\\2- Image Uploader\\ImageUploader\\wwwroot\\",
+      "BasePath": "_content/ImageUploader",
+      "RelativePath": "Images/all_images.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\all_images.json"
+    },
+    {
+      "Identity": "C:\\D\\SliverKey\\2- Image Uploader\\ImageUploader\\wwwroot\\Images\\efc0b5b4-895c-467d-8ad8-dcdf913e1974.jpg",
+      "SourceId": "ImageUploader",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\D\\SliverKey\\2- Image Uploader\\ImageUploader\\wwwroot\\",
+      "BasePath": "_content/ImageUploader",
+      "RelativePath": "Images/efc0b5b4-895c-467d-8ad8-dcdf913e1974.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\efc0b5b4-895c-467d-8ad8-dcdf913e1974.jpg"
+    }
+  ]
+}

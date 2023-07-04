@@ -1,0 +1,37 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\D\\SliverKey\\2- Image Uploader\\ImageUploader\\wwwroot\\Images\\72e04f8c-665b-4c5d-9e78-0c7d037a9f27.jpg",
+      "PackagePath": "staticwebassets\\Images\\72e04f8c-665b-4c5d-9e78-0c7d037a9f27.jpg"
+    },
+    {
+      "Id": "C:\\D\\SliverKey\\2- Image Uploader\\ImageUploader\\wwwroot\\Images\\9a0142fb-1c37-426f-aa00-48eb6e537379.jpg",
+      "PackagePath": "staticwebassets\\Images\\9a0142fb-1c37-426f-aa00-48eb6e537379.jpg"
+    },
+    {
+      "Id": "C:\\D\\SliverKey\\2- Image Uploader\\ImageUploader\\wwwroot\\Images\\all_images.json",
+      "PackagePath": "staticwebassets\\Images\\all_images.json"
+    },
+    {
+      "Id": "C:\\D\\SliverKey\\2- Image Uploader\\ImageUploader\\wwwroot\\Images\\efc0b5b4-895c-467d-8ad8-dcdf913e1974.jpg",
+      "PackagePath": "staticwebassets\\Images\\efc0b5b4-895c-467d-8ad8-dcdf913e1974.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ImageUploader.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.ImageUploader.props",
+      "PackagePath": "build\\ImageUploader.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ImageUploader.props",
+      "PackagePath": "buildMultiTargeting\\ImageUploader.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.ImageUploader.props",
+      "PackagePath": "buildTransitive\\ImageUploader.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
